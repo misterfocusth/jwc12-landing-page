@@ -19,7 +19,7 @@ const Home: NextPage = () => {
 
       <Navbar />
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-8 text-center">
+      <main className="flex w-full flex-1 flex-col items-center justify-center px-8 text-center lg:px-40">
         <div className="mt-28">
           <div id="hero" className="scroll-mt-24">
             <Hero />

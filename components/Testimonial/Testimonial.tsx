@@ -27,24 +27,28 @@ const Testimonial = () => {
     <div className="mt-12 justify-center text-center">
       <p className="mb-12 text-4xl font-bold text-white">รีวิวจากลูกค้า</p>
 
-      {TESTIMONIAL_CONTENT.map((testimonial, idx) => (
-        <div key={idx}>
-          <Image
-            src={testimonial.image}
-            width={175}
-            height={175}
-            className="rounded-full"
-            objectFit="cover"
-          />
+      <div className="lg:flex lg:justify-center lg:gap-14">
+        {TESTIMONIAL_CONTENT.map((testimonial, idx) => (
+          <div key={idx} className="lg:w-3/12">
+            <Image
+              src={testimonial.image}
+              width={175}
+              height={175}
+              className="rounded-full"
+              objectFit="cover"
+            />
 
-          <div className="my-12 mx-8">
-            <p className="my-2 text-3xl font-bold text-white">
-              {testimonial.name}
-            </p>
-            <p className="text-base mt-4 text-white">{testimonial.content}</p>
+            <div className="my-12 mx-8">
+              <p className="my-2 text-3xl font-bold text-white">
+                {testimonial.name}
+              </p>
+              <p className="text-base mt-4 text-white lg:text-lg">
+                {testimonial.content}
+              </p>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };
