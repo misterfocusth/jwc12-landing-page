@@ -1,4 +1,5 @@
 import Image from "next/image";
+import * as router from "next/router";
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
           ผู้มีประสบการณ์การพยากรณ์มากกว่า 10 ปี พร้อมคำพยากรณ์ที่แม่นยำ
         </p>
         <button className="mt-8 p-4 px-16 bg-white text-[#8E44AD] text-lg">
-          จองคิว
+          <a href="#contact">จองคิว</a>
         </button>
       </div>
 
