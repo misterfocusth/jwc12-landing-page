@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
-    <div className="my-20 justify-start text-start lg:flex lg:justify-between">
-      <div className="hidden lg:flex">
+    <div className="my-20 justify-start text-start lg:flex lg:justify-center">
+      <div className="hidden lg:flex lg:w-6/12">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.7926452123234!2d100.77892491538898!3d13.73100019036094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d66308ce98ffd%3A0xcb43a76f038c38ca!2sFaculty%20of%20Infomation%20Technology!5e0!3m2!1sen!2sth!4v1655059052950!5m2!1sen!2sth"
           style={{ border: 0, width: 650 }}
@@ -12,7 +12,7 @@ const Contact = () => {
         ></iframe>
       </div>
 
-      <div className="lg:w-6/12">
+      <div className="lg:w-5/12 lg:ml-8">
         <p className="my-2 text-3xl font-bold text-white lg:text-4xl">
           ทำนายชะตากับหมอหมึก
         </p>
