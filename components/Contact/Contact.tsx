@@ -1,4 +1,5 @@
 const Contact = () => {
+  print("Contact");
   return (
     <div className="my-20 justify-start text-start lg:flex lg:justify-center">
       <div className="hidden lg:flex lg:w-6/12">
